@@ -17,7 +17,7 @@ const counting = setInterval(function() {
 setTimeout(function() {
   clearInterval(counting);
   writeWaitingPercentage(100);
-  process.stdout.write("\n\n");
+  process.stdout.write("\n\n\n\n");
 }, waitTime);
 
 writeWaitingPercentage(percent);
